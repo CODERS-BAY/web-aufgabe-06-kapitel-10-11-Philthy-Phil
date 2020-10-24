@@ -254,3 +254,27 @@ nav a:hover::after {
 a:hover {
     text-decoration: underline;
 }
+aside {
+    list-style-position: inside;
+    list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif");
+    color: red;
+    position: fixed;
+    right: -10px;
+    padding-right: 1rem;
+    bottom: 1rem;
+    width: 100px;
+    background-color: lightyellow; 
+    border-radius: 0.5rem;
+    padding-left: 0.25rem;
+    border: 1px solid lightyellow;
+    box-shadow: 0px 0px 10px black;
+    z-index: 2;
+}
+aside a {
+    text-decoration: none;
+    color: #325935;
+    font-weight: bold;
+}
+aside a:hover {
+    color: #B9D948;    
+}
